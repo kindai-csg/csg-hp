@@ -1,9 +1,13 @@
 .page-title {
-    font-size: 2rem;
-    font-weight: bold;
+    margin-top: 3rem;
+    position: relative;
+    line-height: 1.5;
+    border-bottom: solid 5px #f80100;
+    font-size: 1.75rem;
+    padding: 0 0 0 1rem;
+    color: #f80100;
     font-family: "M PLUS Rounded 1c", sans-serif;
-    text-align: center;
-    margin: 1rem 0;
+    font-weight: bold;
 }
 
 .about-section {
@@ -14,14 +18,19 @@
     color: #f80100;
 }
 
+.emph {
+    font-weight: bold;
+    color: #f80100;
+}
+
 .section-title {
     text-align: center;
     width: 100%;
-    margin: 1rem 0;
+    margin: 3rem auto 2rem;
 }
 
 .section-title-heading {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: bold;
     font-family: "M PLUS Rounded 1c", sans-serif;
 }
@@ -29,9 +38,9 @@
 .section-title hr {
     width: 100%;
     max-width: 100px;
-    height: 0.4rem;
-    border-radius: 0.2rem;
-    margin: 0.5rem auto;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    margin: 1rem auto;
     background: #f80100;
     opacity: 0.75;
 }
@@ -46,7 +55,7 @@
 }
 
 .about-section-content > div {
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 .about-section-content .subtitle-content {
@@ -57,32 +66,29 @@
 }
 
 .schedule-date {
-    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 .schedule-name {
-    font-size: 1.5em;
     font-weight: bold;
+    font-size: 1.75rem;
+    padding: 0.25rem 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
     position: relative;
-    display: inline-block;
-    margin: 0.5rem 0;
 }
 
 .schedule-name .underline-box {
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 80%;
-    height: 4px;
-    background: #f80100;
-    border-radius: 2px;
+    width: 100%;
+    max-width: 200px;
+    height: 2px;
+    background-color: #f80100;
+    margin: 0 auto 1rem;
 }
 
 .schedule-description {
+    margin-bottom: 2rem;
     font-weight: normal;
-    margin: 0.5rem 0;
     display: inline-block;
     width: 90%;
     max-width: 400px;
@@ -100,4 +106,74 @@
     position: relative;
     top: -70px;
     visibility: hidden;
+}
+
+/* Twitter関連のスタイル */
+.wrap-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.wrap-title .underline-box {
+    width: 100%;
+    max-width: 100px;
+    height: 2px;
+    background-color: #00acee;
+    margin: 0 auto 1rem;
+}
+
+.twitter-wrap .twitter-account {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 630px;
+    margin: 1rem auto;
+    padding: 0 15px;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.twitter-wrap .twitter-account:hover {
+    background: #f5f5f5;
+}
+
+.twitter-wrap .twitter-account .twitter-info-wrap {
+    flex: 1 1 30%;
+}
+
+.twitter-wrap .twitter-account .twitter-info-wrap .twitter-name {
+    font-size: 1.15rem;
+}
+
+.twitter-wrap .twitter-account .twitter-info-wrap .twitter-qr {
+    width: 100%;
+}
+
+.twitter-wrap .twitter-account .twitter-info-wrap .twitter-qr img {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.twitter-wrap .twitter-account .twitter-description {
+    flex: 1 1 70%;
+    min-width: 400px;
+    padding: 0 1rem;
+}
+
+@media (max-width: 400px) {
+    .twitter-wrap .twitter-account .twitter-description {
+        min-width: 275px;
+    }
+}
+
+/* Slack関連のスタイル */
+.slack-description {
+    margin: 1rem auto;
+    max-width: 600px;
+    line-height: 1.5;
 }
