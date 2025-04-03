@@ -2,6 +2,7 @@
 layout: default
 title: ホーム
 description: 近畿大学電子計算機研究会のホームページです。
+permalink: /
 custom_css:
   - home
 custom_js:

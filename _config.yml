@@ -13,6 +13,10 @@ markdown: kramdown
 permalink: /:title/
 encoding: utf-8
 
+# Collections
+include:
+  - pages
+
 # Exclude from processing.
 exclude:
   - old_data/

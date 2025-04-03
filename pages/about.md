@@ -2,6 +2,7 @@
 layout: default
 title: 団体紹介
 description: 近畿大学電子計算機研究会の紹介ページです。
+permalink: /about/
 custom_css:
   - about
 ---

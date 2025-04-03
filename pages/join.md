@@ -2,6 +2,7 @@
 layout: default
 title: 新入生向け
 description: 近畿大学電子計算機研究会の新入生向け案内ページです。
+permalink: /join/
 custom_css:
   - join
 ---
