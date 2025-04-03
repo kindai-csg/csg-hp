@@ -63,15 +63,12 @@ custom_js:
     </div>
     <div class="banner-panel">
         <div class="banner-panel-heading">
-            理工学部以外(情報学部を含む)の新入生の方へ
+            理工学部以外の学生の方へ
         </div>
         <hr>
         <div class="banner-panel-text">
             制度上、電算研には理工学部の学生しか入部することができません。<br>
-            そのため、2022年度から新たに <a href="#" link="kithub-inline-link">"KINDAI Info-Tech Hub"(通称: "KITHUB")</a>
-            という団体を立ち上げました！<br>
-            電算研もKITHUBの活動に協力し、一緒にいろいろなイベントや勉強会を開催していく予定です。<br>
-            <a class="join-link" href="{{ site.baseurl }}/join#kithub">KITHUBについて</a>
+            ご了承ください。
         </div>
     </div>
 </div>

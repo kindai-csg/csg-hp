@@ -124,28 +124,3 @@ custom_css:
     </div>
 </section>
 
-<a class="anchor" id="kithub"></a>
-<section class="about-section">
-    <div class="section-title">
-        <div class="section-title-heading">
-            KINDAI Info-Tech Hub(KITHUB)について
-        </div>
-        <hr>
-    </div>
-    <div class="about-section-content center" style="font-weight: bold">
-        <div class="schedule-description" style="max-width: 600px;">
-            理工学部以外の学部に所属する皆さんのために、電算研は「KINDAI Info-Tech Hub(通称:KITHUB)」という団体の活動を支援します。<br>
-            KITHUBは、コンピューターサイエンスやプログラミングなどに興味のある情報系の学部学科以外の学生が交流する場所となることを目指しています。<br>
-            興味のある方はぜひTwitterへのDMやリプライでお問い合わせください！
-        </div>
-        <div>
-            <div class="schedule-name">
-                Twitter - @kindai_it_hub
-                <div class="underline-box"></div>
-            </div>
-            <div class="contact-method-icon">
-                <img src="{{ '/assets/images/twitter-qr-kithub.png' | relative_url }}" alt="KITHUB Twitter QRコード">
-            </div>
-        </div>
-    </div>
-</section>
