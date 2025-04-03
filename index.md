@@ -29,13 +29,13 @@ custom_js:
         電子計算機研究会(通称:"電算研")は、近畿大学理工会に所属する公認団体です。<br>
         プログラミングや3Dモデリングから、イラストや動画・音楽制作まで、<br>
         幅広い分野からあなたの「やりたいこと」「作りたいもの」をサポートします。<br>
-        <a href="/about" class="about-link line-link">詳しくはこちら</a>
+        <a href="{{ site.baseurl }}/about" class="about-link line-link">詳しくはこちら</a>
     </div>
 </div>
 
 <div class="navigation">
     <div class="navigation-panel">
-        <a href="/events" class="navigation-panel-img">
+        <a href="{{ site.baseurl }}/events" class="navigation-panel-img">
             <img src="{{ '/assets/images/38-classroom.jpg' | relative_url }}" class="navigation-panel-img-content">
         </a>
         <div class="navigation-panel-text">
@@ -46,7 +46,7 @@ custom_js:
             <div class="navigation-panel-text-content">
                 電算研の活動や、所有機材について紹介します。
             </div>
-            <a href="/events" class="navigation-panel-text-link line-link">EVENTS</a>
+            <a href="{{ site.baseurl }}/events" class="navigation-panel-text-link line-link">EVENTS</a>
         </div>
     </div>
 </div>
@@ -58,7 +58,7 @@ custom_js:
         </div>
         <hr>
         <div class="banner-panel-text">
-            <a class="join-link" href="/join">説明会や参加に関してはこちら</a>
+            <a class="join-link" href="{{ site.baseurl }}/join">説明会や参加に関してはこちら</a>
         </div>
     </div>
     <div class="banner-panel">
@@ -71,7 +71,7 @@ custom_js:
             そのため、2022年度から新たに <a href="#" link="kithub-inline-link">"KINDAI Info-Tech Hub"(通称: "KITHUB")</a>
             という団体を立ち上げました！<br>
             電算研もKITHUBの活動に協力し、一緒にいろいろなイベントや勉強会を開催していく予定です。<br>
-            <a class="join-link" href="/join#kithub">KITHUBについて</a>
+            <a class="join-link" href="{{ site.baseurl }}/join#kithub">KITHUBについて</a>
         </div>
     </div>
 </div>

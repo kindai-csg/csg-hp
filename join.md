@@ -26,7 +26,7 @@ custom_css:
         <hr>
     </div>
     <div class="about-section-content center">
-        <a href="/about" class="line-link">詳しくはこちら</a>
+        <a href="{{ site.baseurl }}/about" class="line-link">詳しくはこちら</a>
     </div>
 </section>
 

@@ -1,7 +1,12 @@
 title: 近畿大学電子計算機研究会
 description: 近畿大学電子計算機研究会のホームページです。
-baseurl: ""
-url: "https://kindai-csg.dev"
+baseurl: "/csg-hp"
+url: "https://kindai-csg.github.io"
+
+# カスタムドメインを使用する場合の設定
+# カスタムドメインを設定した後、以下のコメントを外し、上記のbaseurl/urlをコメントアウトしてください
+# baseurl: ""
+# url: "https://kindai-csg.dev"
 
 # Build settings
 markdown: kramdown
