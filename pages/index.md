@@ -47,7 +47,7 @@ custom_js:
             <div class="navigation-panel-text-content">
                 電算研の活動や、所有機材について紹介します。
             </div>
-            <a href="{{ site.baseurl }}/events" class="navigation-panel-text-link line-link">EVENTS</a>
+            <a href="{{ site.baseurl }}/about" class="navigation-panel-text-link line-link">ABOUT</a>
         </div>
     </div>
 </div>
