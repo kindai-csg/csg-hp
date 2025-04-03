@@ -1,0 +1,22 @@
+title: 近畿大学電子計算機研究会
+description: 近畿大学電子計算機研究会のホームページです。
+baseurl: ""
+url: "https://kindai-csg.dev"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+encoding: utf-8
+
+# Exclude from processing.
+exclude:
+  - old_data/
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag

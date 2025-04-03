@@ -1,0 +1,88 @@
+.page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.about-section {
+    margin-bottom: 2rem;
+}
+
+.redcolored {
+    color: #f80100;
+}
+
+.section-title {
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.section-title-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.section-title hr {
+    width: 100%;
+    max-width: 100px;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    margin: 0.5rem auto;
+    background: #f80100;
+    opacity: 0.75;
+}
+
+.about-section-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section-content.center {
+    text-align: center;
+}
+
+.about-section-content.min-width {
+    max-width: 500px;
+}
+
+.about-section-content > div {
+    margin: 1rem auto;
+}
+
+.about-section-content .carousel {
+    max-width: 600px;
+}
+
+.about-section-content .carousel .carousel-caption {
+    text-shadow: 3px 3px 5px black;
+}
+
+.about-section-content .subtitle-heading {
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 1.1em;
+    display: inline-block;
+    margin: 0 1rem 0 0;
+}
+
+@media (max-width: 435px) {
+    .about-section-content .subtitle-heading {
+        display: block;
+        margin: 0;
+    }
+
+    .about-section-content .subtitle-heading > span {
+        display: none;
+    }
+}
+
+.about-section-content .subtitle-content {
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 1.4em;
+    line-height: 1.5;
+}

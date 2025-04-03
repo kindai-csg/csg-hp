@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:site_name" content="近畿大学電子計算機研究会"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:locale" content="ja_JP"/>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta name="twitter:card" content="Summary"/>
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}近畿大学電子計算機研究会</title>
+
+    <!-- Scripts Import -->
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+    ></script>
+    <!-- BootStrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+    ></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNQ36H0NHQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-NNQ36H0NHQ');
+    </script>
+
+    <!-- CSS Import -->
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous"
+    >
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    {% if page.custom_css %}
+      {% for css_file in page.custom_css %}
+        <link rel="stylesheet" href="{{ '/assets/css/' | append: css_file | append: '.css' | relative_url }}">
+      {% endfor %}
+    {% endif %}
+</head>
+<body id="html-body">
+<div id="swup">
+    {% include header.html %}
+    <main id="main" class="transition-fade">
+        {{ content }}
+    </main>
+    {% include footer.html %}
+</div>
+
+<!-- SWUP Scripts -->
+<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+<script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+
+{% if page.custom_js %}
+  {% for js_file in page.custom_js %}
+    <script src="{{ '/assets/js/' | append: js_file | append: '.js' | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
+
+</body>
+</html>
