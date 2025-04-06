@@ -8,7 +8,6 @@ custom_css:
 custom_js:
   - home
 ---
-
 <div class="top-panel-container">
     <img src="{{ '/assets/images/act.jpg' | relative_url }}"/>
     <div class="top-panel-text-area">
@@ -20,7 +19,6 @@ custom_js:
         </div>
     </div>
 </div>
-
 <div class="what-is-csg">
     <div class="what-is-csg-heading">
         電子計算機研究会とは？
@@ -30,10 +28,8 @@ custom_js:
         電子計算機研究会(通称:"電算研")は、近畿大学理工会に所属する公認団体です。<br>
         プログラミングや3Dモデリングから、イラストや動画・音楽制作まで、<br>
         幅広い分野からあなたの「やりたいこと」「作りたいもの」をサポートします。<br>
-        <a href="{{ site.baseurl }}/about" class="about-link line-link">詳しくはこちら</a>
     </div>
 </div>
-
 <div class="navigation">
     <div class="navigation-panel">
         <a href="{{ site.baseurl }}/events" class="navigation-panel-img">
@@ -51,7 +47,6 @@ custom_js:
         </div>
     </div>
 </div>
-
 <div class="banner">
     <div class="banner-panel">
         <div class="banner-panel-heading">
