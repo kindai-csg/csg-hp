@@ -51,7 +51,7 @@ custom_css:
             </div>
         </div>
 
-        <!-- 4/24 交流会（追加分） -->
+        <!-- 4/24 交流会 -->
         <div class="schedule-item">
             <div class="schedule-date">
                 4/24(木)
@@ -84,7 +84,6 @@ custom_css:
     </div>
 </section>
 
-
 <section class="about-section">
     <div class="section-title">
         <h2 class="section-title-heading">入部フォーム</h2>
@@ -102,11 +101,11 @@ custom_css:
         <hr>
     </div>
     <div class="about-section-content center">
-        <p>
+        <div>
             上記の新歓イベントに関する詳しいお知らせや、電算研のその他の情報は、以下のTwitterアカウントや、Slackの広報チャンネルにてお知らせしています。<br>
             是非フォローやチャンネル参加をお願い致します。<br>
             広報用Twitterアカウント「電算犬」では、質問箱を利用して電算研に関する質問をすることができます。また、Slackなどでも随時質問は受け付けています。
-        </p>
+        </div>
         <div>
             <div class="wrap-title">
                 Twitter
@@ -118,4 +117,60 @@ custom_css:
                         <div class="twitter-name">
                             電算研公式Twitter
                         </div>
-                        <div
+                        <div class="twitter-qr">
+                            <img src="{{ '/assets/images/twitter-qr-csg.png' | relative_url }}" alt="電算研公式Twitter QRコード"/>
+                        </div>
+                        <div class="twitter-accountName">
+                            @Kindai_csg
+                        </div>
+                    </div>
+                    <div class="twitter-description">
+                        電算研のイベントなどについて発信しています。
+                    </div>
+                </a>
+
+                <a href="https://twitter.com/densankendayo" class="twitter-account">
+                    <div class="twitter-info-wrap">
+                        <div class="twitter-name">
+                            広報 "電算犬"
+                        </div>
+                        <div class="twitter-qr">
+                            <img src="{{ '/assets/images/twitter-qr-inu.png' | relative_url }}" alt="電算犬Twitter QRコード"/>
+                        </div>
+                        <div class="twitter-accountName">
+                            @densankendayo
+                        </div>
+                    </div>
+                    <div class="twitter-description">
+                        電算研の広報用アカウントです。<br>
+                        質問箱やリプライを利用した質問をすることができます。
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <div class="wrap-title">
+                Slack
+                <div class="underline-box" style="background: darkred"></div>
+            </div>
+            <div class="slack-description">
+                <span class="emph">「近畿大学全学用」</span>ワークスペース内<span class="emph">「電子計算機研究会_広報」</span>チャンネルにて、新歓などの情報をお知らせします。<br>
+                Twitterと併せて是非ご確認ください！
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-section">
+    <div class="section-title">
+        <h2 class="section-title-heading">理工学部以外の学生の方へ</h2>
+        <hr>
+    </div>
+    <div class="about-section-content center">
+        <div>
+            電算研は、理工学部同窓会の下部団体であるため、制度上、理工学部の学生しか入部することができません。<br>
+            ご了承ください。
+        </div>
+    </div>
+</section>
