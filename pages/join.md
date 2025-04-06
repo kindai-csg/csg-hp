@@ -39,22 +39,7 @@ custom_css:
         <hr>
     </div>
     <div class="about-section-content center" style="font-weight: bold">
-        <div>
-            <div class="schedule-date">
-                4/8(月) ~ 12(金)
-                <div style="font-weight:normal;font-size:0.8em">
-                    (9:00 ~ 18:30)
-                </div>
-            </div>
-            <div class="schedule-name">
-                新歓BOX <span style="font-size: 0.8em;">@ 31号館前</span>
-                <div class="underline-box"></div>
-            </div>
-            <div class="schedule-description">
-                期間中は、学内の通路に設置されたブースに部員が常駐しているので、いつでも私たちとお話ができます！<br>
-                入部に関するご相談から、大学生活について聞きたいこと、更には雑談でも構いませんので、お気軽にお越しください！
-            </div>
-        </div>
+
 
         <div>
             <div class="schedule-date">
