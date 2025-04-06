@@ -146,8 +146,8 @@ custom_css:
                 style="font-size: 0.75em">(公認団体)</span></span>
         </div>
         <div>
-            <span class="subtitle-heading">部員数<span>:</span></span><span class="subtitle-content">96名 <span
-                style="font-size: 0.75em">(2021年12月時点)</span></span>
+            <span class="subtitle-heading">部員数<span>:</span></span><span class="subtitle-content">57名 <span
+                style="font-size: 0.75em">(2025年3月時点)</span></span>
         </div>
     </div>
 </section>
