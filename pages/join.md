@@ -41,15 +41,7 @@ custom_css:
             <div class="schedule-date">
                 4/17(木)
                 <span class="schedule-time">(3限 : 13:15 ~ 14:45)</span>
-            </div>
-            <div class="schedule-name">
-                交流会 <span style="font-size: 0.8em;">@ 電算研部室</span>
-                <div class="underline-box"></div>
-            </div>
-            <div class="schedule-description">
-                誰でも参加できる交流会を開催！是非お越しください！
-            </div>
-        </div>
+
 
         <!-- 4/24 交流会 -->
         <div class="schedule-item">
