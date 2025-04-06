@@ -36,6 +36,7 @@ custom_css:
     </div>
     <div class="about-section-content center">
 
+        <!-- 4/17 交流会 -->
         <div class="schedule-item">
             <div class="schedule-date">
                 4/17(木)
@@ -50,6 +51,7 @@ custom_css:
             </div>
         </div>
 
+        <!-- 4/24 交流会（追加分） -->
         <div class="schedule-item">
             <div class="schedule-date">
                 4/24(木)
@@ -64,6 +66,7 @@ custom_css:
             </div>
         </div>
 
+        <!-- 5/2 新入生歓迎会 -->
         <div class="schedule-item">
             <div class="schedule-date">
                 5/2(木)
@@ -80,6 +83,7 @@ custom_css:
 
     </div>
 </section>
+
 
 <section class="about-section">
     <div class="section-title">
