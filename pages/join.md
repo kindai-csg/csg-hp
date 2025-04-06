@@ -1,168 +1,153 @@
 ---
 layout: default
-title: 新入生向け
-description: 近畿大学電子計算機研究会の新入生向け案内ページです。
-permalink: /join/
+title: 団体紹介
+description: 近畿大学電子計算機研究会の紹介ページです。
+permalink: /about/
 custom_css:
-  - join
+  - about
 ---
 
 <div class="page-title">
-    新入生向け
+    団体紹介
 </div>
 
 <section class="about-section">
-    <div class="about-section-content center">
-        <div style="margin-top: 3rem">
-            <span class="subtitle-content">近畿大学の新入生の皆さん、ご入学おめでとうございます！</span>
+    <div class="section-title">
+        <div class="section-title-heading">
+            目標
         </div>
-    </div>
-</section>
-
-<section class="about-section">
-    <div class="section-title">
-        <h2 class="section-title-heading">電子計算機研究会とは？</h2>
-        <hr>
-    </div>
-    <div class="about-section-content center">
-        <a href="{{ site.baseurl }}/about" class="line-link">詳しくはこちら</a>
-    </div>
-</section>
-
-<section class="about-section">
-    <div class="section-title">
-        <h2 class="section-title-heading">新歓情報</h2>
-        <hr>
-    </div>
-    <div class="about-section-content center">
-
-        <!-- 4/17 交流会 -->
-        <div class="schedule-item">
-            <div class="schedule-date">
-                4/17(木)
-                <span class="schedule-time">(3限 : 13:15 ~ 14:45)</span>
-
-
-        <!-- 4/24 交流会 -->
-        <div class="schedule-item">
-            <div class="schedule-date">
-                4/24(木)
-                <span class="schedule-time">(3限 : 13:15 ~ 14:45)</span>
-            </div>
-            <div class="schedule-name">
-                交流会 <span style="font-size: 0.8em;">@ 電算研部室</span>
-                <div class="underline-box"></div>
-            </div>
-            <div class="schedule-description">
-                誰でも参加できる交流会を開催！是非お越しください！
-            </div>
-        </div>
-
-        <!-- 5/2 新入生歓迎会 -->
-        <div class="schedule-item">
-            <div class="schedule-date">
-                5/2(木)
-                <span class="schedule-time">(3限 : 13:15 ~ 14:45)</span>
-            </div>
-            <div class="schedule-name">
-                新入生歓迎会
-                <div class="underline-box"></div>
-            </div>
-            <div class="schedule-description">
-                （部員限定）
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section class="about-section">
-    <div class="section-title">
-        <h2 class="section-title-heading">入部フォーム</h2>
-        <hr>
-    </div>
-    <div class="about-section-content center">
-        <p>ご興味を持っていただけた方は、ぜひ以下のリンクから入部申請をお願い致します！</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSci0FcZMElo-hykb5629smxPK3wZAuiFzJlEfhI3PW4E4UgVw/viewform" class="line-link">入部フォーム</a>
-    </div>
-</section>
-
-<section class="about-section">
-    <div class="section-title">
-        <h2 class="section-title-heading">ご質問・ご連絡</h2>
         <hr>
     </div>
     <div class="about-section-content center">
         <div>
-            上記の新歓イベントに関する詳しいお知らせや、電算研のその他の情報は、以下のTwitterアカウントや、Slackの広報チャンネルにてお知らせしています。<br>
-            是非フォローやチャンネル参加をお願い致します。<br>
-            広報用Twitterアカウント「電算犬」では、質問箱を利用して電算研に関する質問をすることができます。また、Slackなどでも随時質問は受け付けています。
-        </div>
-        <div>
-            <div class="wrap-title">
-                Twitter
-                <div class="underline-box"></div>
-            </div>
-            <div class="twitter-wrap">
-                <a href="https://twitter.com/Kindai_csg" class="twitter-account">
-                    <div class="twitter-info-wrap">
-                        <div class="twitter-name">
-                            電算研公式Twitter
-                        </div>
-                        <div class="twitter-qr">
-                            <img src="{{ '/assets/images/twitter-qr-csg.png' | relative_url }}" alt="電算研公式Twitter QRコード"/>
-                        </div>
-                        <div class="twitter-accountName">
-                            @Kindai_csg
-                        </div>
-                    </div>
-                    <div class="twitter-description">
-                        電算研のイベントなどについて発信しています。
-                    </div>
-                </a>
-
-                <a href="https://twitter.com/densankendayo" class="twitter-account">
-                    <div class="twitter-info-wrap">
-                        <div class="twitter-name">
-                            広報 "電算犬"
-                        </div>
-                        <div class="twitter-qr">
-                            <img src="{{ '/assets/images/twitter-qr-inu.png' | relative_url }}" alt="電算犬Twitter QRコード"/>
-                        </div>
-                        <div class="twitter-accountName">
-                            @densankendayo
-                        </div>
-                    </div>
-                    <div class="twitter-description">
-                        電算研の広報用アカウントです。<br>
-                        質問箱やリプライを利用した質問をすることができます。
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div>
-            <div class="wrap-title">
-                Slack
-                <div class="underline-box" style="background: darkred"></div>
-            </div>
-            <div class="slack-description">
-                <span class="emph">「近畿大学全学用」</span>ワークスペース内<span class="emph">「電子計算機研究会_広報」</span>チャンネルにて、新歓などの情報をお知らせします。<br>
-                Twitterと併せて是非ご確認ください！
-            </div>
+            <span class="subtitle-content">「あなたの<span class="redcolored">やってみたい</span>を支える」</span>
         </div>
     </div>
 </section>
 
 <section class="about-section">
     <div class="section-title">
-        <h2 class="section-title-heading">理工学部以外の学生の方へ</h2>
+        <div class="section-title-heading">
+            活動内容
+        </div>
+        <hr>
+    </div>
+    <div class="about-section-content min-width" style="font-weight: bold">
+        <div>
+            理工会系団体で最大の部員数を誇る当研究会は、その人数から生まれる多様性や豊富な機材・資源を活用し、各部員の<span class="redcolored">「やりたいこと」「作りたいもの」「学びたいもの」</span>を作り、学ぶことのできる環境を提供する活動を行っています。
+        </div>
+        <div>
+            その一環として、ハッカソンや勉強会等の多様なイベントを研究会内で展開したり、外部団体と連携したイベントを開催しています。<br>
+            また、一定のスキルを持つメンバーが中心となり、初心者に対して体系的に技術を伝えるための仕組みが整備されています。
+        </div>
+        <div>
+            そのフィールドは多岐にわたり、プログラミングではWebアプリからゲーム制作まで幅広い分野を扱い、また他にもイラストや3Dモデリング、動画や音楽の制作など、多種多様な領域で「やりたいこと」を支えています。
+        </div>
+    </div>
+</section>
+
+<section class="about-section">
+    <div class="section-title">
+        <div class="section-title-heading">
+            所有機材紹介(一部)
+        </div>
+        <hr>
+    </div>
+    <div class="about-section-content center" style="font-weight: bold; line-height: 2">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{ '/assets/images/vive.png' | relative_url }}" class="d-block w-100" alt="HTC VIVE">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>HTC VIVE</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ '/assets/images/oculus.png' | relative_url }}" class="d-block w-100" alt="Oculus Quest 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Oculus Quest 2 (2台)</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ '/assets/images/server.png' | relative_url }}" class="d-block w-100" alt="サーバマシン">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>サーバマシン</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ '/assets/images/pentab.png' | relative_url }}" class="d-block w-100" alt="ペンタブレット">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>ペンタブレット</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ '/assets/images/books.png' | relative_url }}" class="d-block w-100" alt="技術書等">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>技術書等</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div>
+            ノートPC(複数台)<br>
+            高性能PC(複数台)<br>
+            ディスプレイ(複数台)<br>
+            ラックマウントサーバマシン(全5台構成)<br>
+            外部VPSサーバ<br>
+            LEGO マインドストーム(12台)<br>
+            液晶ペンタブレット<br>
+            ペンタブレット<br>
+            各種配信機材(カメラ・マイク・グリーンバックなど)<br>
+            VR機器(Oculus 3台・VIVE等)<br>
+            技術書(多数)<br><br>
+            など
+        </div>
+    </div>
+</section>
+
+<section class="about-section">
+    <div class="section-title">
+        <div class="section-title-heading">
+            団体概要
+        </div>
         <hr>
     </div>
     <div class="about-section-content center">
+        <div style="font-size: 1.2em">
+            <span class="subtitle-heading">団体名<span>:</span></span><span
+                class="subtitle-content">近畿大学電子計算機研究会</span>
+        </div>
         <div>
-            電算研は、理工学部同窓会の下部団体であるため、制度上、理工学部の学生しか入部することができません。<br>
-            ご了承ください。
+            <span class="subtitle-heading">所属<span>:</span></span><span
+                class="subtitle-content">理工会学生部会研究会連絡協議会 <span
+                style="font-size: 0.75em">(公認団体)</span></span>
+        </div>
+        <div>
+            <span class="subtitle-heading">部員数<span>:</span></span><span class="subtitle-content">96名 <span
+                style="font-size: 0.75em">(2021年12月時点)</span></span>
         </div>
     </div>
 </section>
